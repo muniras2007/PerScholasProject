@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+body{
+    background: url('https://cdn.pixabay.com/photo/2013/07/13/13/35/pill-161180_960_720.png') no-repeat;
+    background-size: cover;
+    padding:0;
+    margin:0; height:100%;
+}
+html{padding:0; margin:0; height:100%;}
+.login-form{
+    width: 500px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.login-form p{
+    font-size: 20px;
+    width: 100%;
+}
+.login-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.login-form select{
+    font-size: 16px;
+}
+.login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+}
